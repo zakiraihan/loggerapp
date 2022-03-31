@@ -1,0 +1,6 @@
+2022-03-31T10:01:07.9069930+07:00  [INF] Now listening on: "https://localhost:5001" (d826f4b8)
+2022-03-31T10:01:07.9158980+07:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2022-03-31T10:01:07.9189390+07:00  [INF] Hosting environment: "Development" (c3307c92)
+2022-03-31T10:01:07.9220210+07:00  [INF] Content root path: "/Users/ecomindo/Projects/Sample.Image/Sample.Image.LoggingToFile" (b5d60022)
+2022-03-31T10:01:08.1592960+07:00 0HMGIOAQ01R1P:00000001 [INF] Log written, current date time: 03/31/2022 03:01:08 (e2b85c76)
+2022-03-31T10:01:09.5329800+07:00 0HMGIOAQ01R1Q:00000001 [INF] Log written, current date time: 03/31/2022 03:01:09 (c4f020e6)

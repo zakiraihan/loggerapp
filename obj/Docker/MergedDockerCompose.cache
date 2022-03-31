@@ -1,0 +1,16 @@
+services:
+  sample.image.loggingtofile:
+    build:
+      context: /Users/ecomindo/Projects/Sample.Image
+      dockerfile: Sample.Image.LoggingToFile/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: sampleimage
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - /Users/ecomindo/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/ecomindo/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  sample.image.loggingtofile:
+    image: ${DOCKER_REGISTRY-}sampleimage
+    build:
+      context: .
+      dockerfile: Sample.Image.LoggingToFile/Dockerfile
