@@ -338,4 +338,4 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
-/MidService/MidService/Logs
+/Sample.Image.LoggingToFile/Logs
